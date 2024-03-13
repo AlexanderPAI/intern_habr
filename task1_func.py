@@ -1,6 +1,6 @@
-from pprint import pprint
-import random
 import math
+import random
+from pprint import pprint
 
 TIMESTAMPS_COUNT = 50000
 
