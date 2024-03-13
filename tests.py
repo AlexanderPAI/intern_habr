@@ -4,7 +4,7 @@ import unittest
 from task1_func import generate_game, get_score, get_score_recursion
 
 
-class GetScoreCycleTest(unittest.TestCase):
+class GetScoreTest(unittest.TestCase):
     """Тестирование get_score"""
 
     @classmethod
