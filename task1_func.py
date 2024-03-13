@@ -59,7 +59,7 @@ pprint(game_stamps)
 # Бинарный поиск можно реализовать, через цикл или рекурсию.
 
 
-def get_score_cycle(game_stamps, offset):
+def get_score(game_stamps, offset):
     """
     Бинарный поиск через цикл.
     """
@@ -106,7 +106,7 @@ def get_score_recursion(game_stamps, offset):
     return stamp
 
 
-stamp_cycle = get_score_cycle(game_stamps, 25001)
-stamp_iters = get_score_recursion(game_stamps, 25001)
-pprint(stamp_cycle)
-pprint(stamp_iters)
+# stamp_cycle = get_score_cycle(game_stamps, 25001)
+# stamp_iters = get_score_recursion(game_stamps, 25001)
+# pprint(stamp_cycle)
+# pprint(stamp_iters)
